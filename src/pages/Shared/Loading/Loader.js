@@ -1,11 +1,12 @@
 import React from 'react';
+import "./Loading.css"
 
-const Loading = () => {
+const Loader = () => {
     return (
         <div className='flex justify-center items-center'>
-            <h4>Loading...</h4>
+            <div className='loader'></div>
         </div>
     );
 };
 
-export default Loading;
+export default Loader;

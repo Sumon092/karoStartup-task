@@ -3,7 +3,9 @@ import UserInfo from '../UserInfo/UserInfo.js';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import Loading from '../Login/Loading';
+import Loading from "../Shared/Loading/Loader.js"
+
+
 
 
 const Contact = () => {
@@ -29,7 +31,6 @@ const Contact = () => {
     }
     // const allUser = users.results;
     // console.log(users);
-    <h1>Hello world</h1>
     const fetchData = async () => {
         const loadUsersData = await secondPage()
         setUsers([...users, ...loadUsersData]);
