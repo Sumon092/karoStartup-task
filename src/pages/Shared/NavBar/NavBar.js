@@ -10,6 +10,7 @@ const NavBar = () => {
     // const handleSignOut = () => {
     //     signOut(auth)
     // }
+    // active nave
     const [navBar, setNavBar] = useState(false);
     const changeBackground = () => {
         if (window.scrollY >= 30) {
