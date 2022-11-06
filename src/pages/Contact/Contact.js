@@ -53,7 +53,7 @@ const Contact = () => {
             }
         >
             {
-                <table className="table w-full bg-white">
+                <table className="table w-full bg-white mt-5">
 
                     <thead>
                         <tr>
